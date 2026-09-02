@@ -58,6 +58,10 @@ main img {
     width: 600px;
     border: 5px solid #59151A;
 }
+h3 {
+    color: #59151A;
+    text-align: center;
+}
 
 footer {
     padding: 40px 0;
