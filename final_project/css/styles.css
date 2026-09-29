@@ -1,0 +1,196 @@
+/*/ Main styling /*/
+
+body{
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #000000;
+  color: #39ff88;
+}
+
+h1 {
+    font-family: "Workbench", sans-serif;
+    font-variation-settings:
+        "SCAN" -60;
+}
+
+h2 {
+    font-family: "Workbench", sans-serif;
+    font-variation-settings:
+    "SCAN" -60;
+}
+
+#h2page1bottom {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aside {
+    border: 1px dashed #39ff88;
+    background-color: #05140b;
+    padding: 15px 20px;
+    margin: 25px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.aside h3 {
+    margin-top: 0;
+    color: #39ff88;
+}
+
+.aside p {
+    margin: 8px 0;
+}
+
+main p {
+    max-width: 1000px;
+    margin: 0 auto 20px;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    border-radius: 5px;
+    border: 5px solid darkgreen
+}
+
+#container {
+    text-align: center;
+    background-color: #080808;
+    width: 80%;
+    margin: 20px auto;
+    border: 5px solid #B3262E;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#page1image2 {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+}
+
+#locations img {
+    width: 50%;
+    height: auto;
+}
+
+iframe {
+    border: 5px solid darkgreen;
+    border-radius: 5px;
+}
+
+#urbexvideo iframe {
+    width: 80%;
+    max-width: 600px;
+    aspect-ratio: 16 / 9;
+    height: auto;
+}
+
+#audio {
+    background-color: #9c1922;
+    border: 1px solid #b6bcbf;
+    border-radius: 5px;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+}
+
+#urbexaudio {
+    display: block;
+}
+#page3_gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 25px;
+}
+
+#page3_gallery img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+aside {
+    border: 1px dashed #39ff88;
+    background-color: #05140b;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+#page4images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#page4images img {
+    width: 50%;
+    height: auto;
+}
+
+hr {
+    color: #39ff88;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    color: #39ff88;
+    text-decoration: none;
+    border: 1px solid #b6bcbf;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #B3262E;
+    border-color: #B3262E;
+    color: white;
+}
+
+/*/ Tablet styling /*/
+
+@media (max-width: 1024px) {
+    #locations img {
+        width: 100%;
+    }
+    #page3_gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    #page4images img {
+        width: 90%;
+    }
+}
+
+/*/ Phone styling /*/
+
+@media (max-width: 600px) {
+    #page3_gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    #locations img {
+        width: 100%;
+    }
+    #page4images img {
+        width: 100%;
+    }
+}
+
+
