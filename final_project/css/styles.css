@@ -20,6 +20,12 @@ h2 {
     "SCAN" -60;
 }
 
+.subheading {
+    font-size: 1rem; 
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+}
+
 #h2page1bottom {
   font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
@@ -82,6 +88,10 @@ img {
 iframe {
     border: 5px solid darkgreen;
     border-radius: 5px;
+}
+
+.fixediframe {
+    width: 50%;
 }
 
 #urbexvideo iframe {
